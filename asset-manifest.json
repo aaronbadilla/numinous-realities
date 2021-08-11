@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/numinous-realities/static/css/main.ffac194f.chunk.css",
+    "main.js": "/numinous-realities/static/js/main.f5a341bf.chunk.js",
+    "main.js.map": "/numinous-realities/static/js/main.f5a341bf.chunk.js.map",
+    "runtime-main.js": "/numinous-realities/static/js/runtime-main.2e56bc6b.js",
+    "runtime-main.js.map": "/numinous-realities/static/js/runtime-main.2e56bc6b.js.map",
+    "static/js/2.af06f212.chunk.js": "/numinous-realities/static/js/2.af06f212.chunk.js",
+    "static/js/2.af06f212.chunk.js.map": "/numinous-realities/static/js/2.af06f212.chunk.js.map",
+    "static/js/3.fcdf6254.chunk.js": "/numinous-realities/static/js/3.fcdf6254.chunk.js",
+    "static/js/3.fcdf6254.chunk.js.map": "/numinous-realities/static/js/3.fcdf6254.chunk.js.map",
+    "index.html": "/numinous-realities/index.html",
+    "static/css/main.ffac194f.chunk.css.map": "/numinous-realities/static/css/main.ffac194f.chunk.css.map",
+    "static/js/2.af06f212.chunk.js.LICENSE.txt": "/numinous-realities/static/js/2.af06f212.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2e56bc6b.js",
+    "static/js/2.af06f212.chunk.js",
+    "static/css/main.ffac194f.chunk.css",
+    "static/js/main.f5a341bf.chunk.js"
+  ]
+}
