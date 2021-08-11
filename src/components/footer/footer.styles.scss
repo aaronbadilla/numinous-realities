@@ -1,0 +1,30 @@
+.footer {
+    text-align: center;
+
+    a {
+        text-decoration: none;
+    }
+
+    .footer-options {
+        width: 50%;
+        margin: auto;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        text-align: center;
+
+        .footer-option {
+            padding: 10px 15px;
+            cursor: pointer;
+
+            &:hover {
+                font-weight: 800;
+            }
+        }
+    }
+}
+
+.copyright {
+    font-size: xx-small;
+}
