@@ -13,7 +13,7 @@ const App = () => {
       <div>
       <Header/>
       <Switch>
-        <Route exact path='/' component={Gallery1}/>
+        <Route exact path='/numinous-realities' component={Gallery1}/>
         <Route exact path='/gallery2' component={Gallery2}/>
       </Switch>
       <Footer/>
