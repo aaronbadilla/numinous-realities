@@ -4,6 +4,9 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 25px;
+    position: sticky;
+    top: 0;
+    animation: fade-in 1s ease;
 
     .logo-container {
         height: 100%;
@@ -26,6 +29,7 @@
         display: flex;
         align-items: center;
         justify-content: flex-end;
+        text-align: center;
 
         .option {
             padding: 10px 15px;
@@ -42,3 +46,72 @@
         text-decoration: none;
     }
 }
+
+@keyframes fade-out {
+    0% {
+        opacity: 1
+    }
+    100% {
+        opacity: 0
+    }
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+.transparent-header {
+        height: 70px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 25px;
+        position: sticky;
+        top: 0;
+        animation: fade-out 1s ease;
+        opacity: 0;
+    
+        .logo-container {
+            height: 100%;
+            width: 60px;
+            padding: 15px;
+        }
+    
+        .logo {
+            width: 100%;
+            height: auto;
+        }
+    
+        .title-container {
+            width: 100%;
+        }
+    
+        .options {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            text-align: center;
+            
+    
+            .option {
+                padding: 10px 15px;
+                cursor: pointer;
+    
+                &:hover {
+                    font-weight: 800;
+                    border-bottom: solid thin;
+                }
+            }
+        }
+    
+        a {
+            text-decoration: none;
+        }
+    }

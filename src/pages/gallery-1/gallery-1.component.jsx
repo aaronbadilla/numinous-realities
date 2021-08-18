@@ -33,7 +33,7 @@ const Gallery1 = () => {
     <div id='gallery1'>
         <div id='home-title'>
             <a href='https://ab2.gallery/listing/291996642'>
-                <img className='title-page' src='https://gateway.pinata.cloud/ipfs/QmdM2ATeCtTTrGZ7zamStz3facpPh5bUG5atMm7hj2YXM7' alt='Numinous Realities'/>
+                <img className='title-page' src='https://storage.googleapis.com/numinous-realities/Numinous%20Realities%20-%20Title%20Page.jpg' alt='Numinous Realities'/>
             </a>
         </div>
 

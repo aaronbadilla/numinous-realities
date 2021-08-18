@@ -13,6 +13,7 @@
         align-items: center;
         justify-content:space-between;
         text-align: center;
+        flex-wrap: wrap;
 
         .footer-option {
             padding: 10px 15px;
@@ -21,6 +22,10 @@
             &:hover {
                 font-weight: 800;
             }
+        }
+
+        @media only screen and (max-width: 700px) {
+            justify-content: space-evenly;
         }
     }
 }
