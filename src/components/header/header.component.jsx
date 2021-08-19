@@ -60,8 +60,8 @@ return (
              <div className='options'>
                     <Link className='option' to='/numinous-realities/'>Page Gallery</Link>
                     <Link className='option' to='/gallery2'>Collage Gallery</Link>
-                    <Link className='option' to='/artist'>Artist</Link>
                     <Link className='option' to='/about'>About</Link>
+                    <Link className='option' to='/artist'>Artist</Link>
                 </div>
         }
     </div>

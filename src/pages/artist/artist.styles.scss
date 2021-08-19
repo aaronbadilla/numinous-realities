@@ -2,7 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    margin: auto;
+    margin: 0 auto 100px;
 
     .about-image{
         display: block;
@@ -20,7 +20,8 @@
         line-height: 50px;
 
         @media only screen and (max-width: 1079px) {
-            width: 75%;
+            width: 100%;
+            line-height:normal
         }
     };
 
@@ -49,13 +50,18 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    margin: auto;
+    margin: auto auto 100px;
 
-    .photo-left {
+    .photo {
         display: block;
         padding: 20px;
         margin: auto;
-        width: 400px;
+        width: 450px;
+
+        @media only screen and (max-width: 700px)
+            {
+                width: 300px;
+            }
     }
 
     .quote-container {
@@ -63,16 +69,74 @@
         width: 50%;
         text-align: center;
         margin: auto;
-        padding: 20px;
         line-height: 50px;
         
         @media only screen and (max-width: 1079px) {
-                    width: 75%;
+                    width: 100%;
+                    line-height:normal;
                 }
     
     }
 
+}
 
+.wide-quote {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    line-height: 50px;
+
+    @media only screen and (max-width: 1079px) {
+        line-height:normal;
+    }
+}
+
+.photo-title {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto 50px;
 
 }
 
+.section-title {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 100px;
+    letter-spacing: 5px;
+
+    @media only screen and (max-width: 700px)
+    {
+        margin-bottom: 50px;
+    }
+}
+
+.socials {
+    text-align: center;
+    margin: 0 auto 100px;
+
+    .socials-info {
+        margin: 0 auto 50px;
+        line-height: 50px;
+        width: 50%;
+
+        @media only screen and (max-width: 700px)
+        {
+            width: 100%;
+            margin: 0 auto 30px;
+        }
+    }
+
+    .socials-links {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: auto;
+        justify-content: center;
+
+        .link {
+        height: 150px;
+        display: block;
+        margin: 20px
+        }
+    }
+}
