@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/numinous-realities/static/css/main.54327fe6.chunk.css",
-    "main.js": "/numinous-realities/static/js/main.ac3e8ce5.chunk.js",
-    "main.js.map": "/numinous-realities/static/js/main.ac3e8ce5.chunk.js.map",
+    "main.css": "/numinous-realities/static/css/main.d474abd4.chunk.css",
+    "main.js": "/numinous-realities/static/js/main.8969c3bd.chunk.js",
+    "main.js.map": "/numinous-realities/static/js/main.8969c3bd.chunk.js.map",
     "runtime-main.js": "/numinous-realities/static/js/runtime-main.6760decc.js",
     "runtime-main.js.map": "/numinous-realities/static/js/runtime-main.6760decc.js.map",
     "static/js/2.870e745b.chunk.js": "/numinous-realities/static/js/2.870e745b.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.9e21eb47.chunk.js": "/numinous-realities/static/js/3.9e21eb47.chunk.js",
     "static/js/3.9e21eb47.chunk.js.map": "/numinous-realities/static/js/3.9e21eb47.chunk.js.map",
     "index.html": "/numinous-realities/index.html",
-    "static/css/main.54327fe6.chunk.css.map": "/numinous-realities/static/css/main.54327fe6.chunk.css.map",
+    "static/css/main.d474abd4.chunk.css.map": "/numinous-realities/static/css/main.d474abd4.chunk.css.map",
     "static/js/2.870e745b.chunk.js.LICENSE.txt": "/numinous-realities/static/js/2.870e745b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.6760decc.js",
     "static/js/2.870e745b.chunk.js",
-    "static/css/main.54327fe6.chunk.css",
-    "static/js/main.ac3e8ce5.chunk.js"
+    "static/css/main.d474abd4.chunk.css",
+    "static/js/main.8969c3bd.chunk.js"
   ]
 }
