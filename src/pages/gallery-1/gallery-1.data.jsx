@@ -32,7 +32,7 @@ const PagesInfo = [
         className: 'pages',
         image: 'https://storage.googleapis.com/numinous-realities/Numinous%20Realities%20-%20Page%204.jpg',
         alt:'hello',
-        description: 'A banana telephone, perhaps summoned by the artists desire to wake themselves up, is summoned.',
+        description: 'A banana telephone, perhaps summoned by the artists desire to wake themselves up, appears.',
         price: '1'
     },
     {

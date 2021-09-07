@@ -1,0 +1,54 @@
+
+.text-font {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    justify-content: space-evenly;
+
+    .fonts {
+        display: block;
+        height: 100px;
+        max-width: 100%;
+    }
+    
+}
+
+.caption {
+    font-size: 12px;
+    margin-right: 0;
+}
+
+.title-section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    justify-content: space-around;
+
+    .intro-text {
+        text-align:center;
+        display: block;
+        width: 50%;
+    }
+
+    .title-page {
+        display: block;
+        width: 50%;
+    }
+}
+
+.image-block {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    justify-content: space-evenly;
+
+    .images {
+        display: block;
+        height: 150px;
+        max-width: 100%;
+    }
+}
+

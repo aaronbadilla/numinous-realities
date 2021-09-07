@@ -6,6 +6,8 @@ import Placard from '../../components/placard/placard.component'
 
 const Gallery2 = () => {
 
+
+
     const [imgsLoaded, setImgsLoaded] = useState(false)
 
     useEffect(() => {
@@ -26,11 +28,11 @@ const Gallery2 = () => {
 
     return (
     <div id='gallery2'>
-        <div className='gallery-title'>
-            <h1>
-                Collages
-            </h1>
-        </div>
+    <div className='gallery-title'>
+        <h2>
+            The collages present the artists thoughts in a different form.
+        </h2>
+    </div>
         {CollagesInfo.map(({title, link, className, image, alt, description, price }) => (
             <div>
             <a href={link} target="_blank" rel="noopener noreferrer">
@@ -48,6 +50,8 @@ const Gallery2 = () => {
             </div>
             
         )) }
+
+
     </div>
     )
         }

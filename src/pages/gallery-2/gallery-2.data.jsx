@@ -24,7 +24,7 @@ const CollagesInfo = [
         image:'https://gateway.pinata.cloud/ipfs/QmQ57C6aynNJdGvWDb4WSp7WrvcxnhUWjZRyGxMVjzhmgq',
         alt:'Collage 3',
         description: 'Collage 3 is a 1/1 super limited edition mint that includes all the pages of the comic.',
-        price: '13'
+        price: '50'
     }
 ]
 
