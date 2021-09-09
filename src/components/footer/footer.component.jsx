@@ -1,6 +1,7 @@
 import React from 'react'
 import './footer.styles.scss'
 import { HashLink as Link } from 'react-router-hash-link';
+import UpdateDate from '../update-date/update-date.component';
 
 const Footer = () => (
     <div className='footer'>
@@ -12,7 +13,7 @@ const Footer = () => (
             <Link className='footer-option' to='/numinous-realities/artist/#artist'>Artist</Link>
             <Link className='footer-option' to='/numinous-realities/about/#about'>About</Link>
         </div>
-        <p className='copyright'>Copyright 2021</p>
+        <p className='copyright'>Copyright {UpdateDate}</p>
         <div className='copyright'>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
     </div>
 )
