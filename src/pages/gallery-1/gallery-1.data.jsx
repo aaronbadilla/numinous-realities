@@ -5,7 +5,7 @@ const PagesInfo = [
         className: 'pages',
         image: 'https://storage.googleapis.com/numinous-realities/Numinous%20Realities%20-%20Page%201%20-%20What%20happened%3F.jpg',
         alt:'what happened?',
-        description: '"What happened? Depicts the artists struggle to focus on the task at hand. A feeling shared by many artists especially at the beginning of a work session',
+        description: '"The artists struggles to focus on the creative task at hand. A feeling shared by many artists especially at the beginning of a work session',
         price: '1'
     },
     {

@@ -3,7 +3,7 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    margin: auto;
+    margin: 0 auto 100px;
     justify-content: space-evenly;
 
     .fonts {
@@ -46,4 +46,24 @@
         max-width: 100%;
     }
 }
+
+.about-section-1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 100px auto;
+    justify-content: space-evenly;
+
+    .about-text-1 {
+        width: 550px;
+        line-height: 40px;
+        text-align:left;
+    }
+
+    .example {
+        width: 40%;
+        max-height: 250px
+    }
+}
+
 
