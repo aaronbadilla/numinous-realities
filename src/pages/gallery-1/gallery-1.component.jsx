@@ -32,7 +32,7 @@ const Gallery1 = () => {
 
     <div id='gallery1'>
         <div id='home-title'>
-            <a href='https://ab2.gallery/listing/291996642' rel="noopener noreferrer">
+            <a href='https://ab2.gallery/listing/291996642' target="_blank" rel="noopener noreferrer">
                 <img className='title-page' src='https://storage.googleapis.com/numinous-realities/Numinous%20Realities%20-%20Title%20Page.jpg' alt='Numinous Realities'/>
             </a>
         </div>
