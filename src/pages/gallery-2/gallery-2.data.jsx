@@ -22,6 +22,7 @@ const CollagesInfo = [{
         className: 'collage-image',
         image: 'https://storage.googleapis.com/numinous-realities/Collage%203%20Numinous%20Realities.png',
         alt: 'Collage 3',
+        description: 'Collage 3 is a super limited edition mint that includes all pages of the comic.',
         price: '50'
     }
 ]
