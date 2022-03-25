@@ -3,6 +3,7 @@ import './gallery-2.components.scss'
 import GraphicLineBreak from '../../components/graphic-line-break/graphic-line-break.component'
 import CollagesInfo from './gallery-2.data'
 import Placard from '../../components/placard/placard.component'
+import ArtPages from '../../components/art-pages/art-pages.component'
 
 const Gallery2 = () => {
 
@@ -31,23 +32,19 @@ const Gallery2 = () => {
             The collages present the artists thoughts in a different form
         </h2>
     </div>
-        {CollagesInfo.map(({title, link, className, image, alt, description, price }) => (
-            <div>
-            <a href={link} target="_blank" rel="noopener noreferrer">
-                {imgsLoaded ? (
-                    <img className={className} src={image} alt={alt}/> ) : (
-                        <h1>
-                            {alt}
-                        </h1>
-                    )
-                }    
-                    
-            </a>
-            <Placard title={title} link={link} description={description} price={price}/>
-            <GraphicLineBreak/>
-            </div>
+        {CollagesInfo.map((page) => {
             
-        )) }
+            const {title, link, description, price} = page
+            
+            return (
+                <div>
+                    <ArtPages page={page} imgsLoaded={imgsLoaded}/>
+                    <Placard title={title} link={link} description={description} price={price}/>
+                    <GraphicLineBreak/>
+                </div>
+            )
+            
+        }) }
 
 
     </div>

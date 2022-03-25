@@ -4,7 +4,7 @@ import './gallery-1.styles.scss'
 import PagesInfo from './gallery-1.data'
 import Placard from '../../components/placard/placard.component'
 import GraphicLineBreak from '../../components/graphic-line-break/graphic-line-break.component';
-
+import ArtPages from '../../components/art-pages/art-pages.component';
 
 
 const Gallery1 = () => {
@@ -43,27 +43,19 @@ const Gallery1 = () => {
             <p>"Numinous Realities" is a 13-page stream of consciousness mini-book created by Bekah Badilla</p>
         </div>
         
-        {PagesInfo.map(({title, link, className, image, alt, description, price}) => (
-            
-            <div>
-                <GraphicLineBreak/>
-                <a href={link} target="_blank" rel="noopener noreferrer">
-                    {
-                        imgsLoaded ? (
-                            <img className={className} src={image} alt={alt}/>) : (
-                        <h1>
-                            {alt}
-                        </h1>
-                    )
-                    }
-                </a>
-                <Placard title={title} link={link} description={description} price={price}/>
-            </div>
+        {PagesInfo.map((page) => {
+            const {title, link, description, price} = page
 
-        ))
-        }
+            return (
+                <div>
+                    <GraphicLineBreak/>
+                    <ArtPages page={page} imgsLoaded={imgsLoaded}/>
+                    <Placard title={title} link={link} description={description} price={price}/>
+                </div>
+            )
+        })}
         <GraphicLineBreak/>
-    </div>
+        </div>
     )
     }
 
